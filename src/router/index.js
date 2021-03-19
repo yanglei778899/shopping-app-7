@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 const home = () => import("../views/home/home");
 const my = () => import("../views/my/my");
@@ -11,14 +10,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: home
-  },
-  {
     path: '/my',
     name: 'my',
     component: my
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: home
   },
   {
     path: '/cart',

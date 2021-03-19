@@ -19,7 +19,7 @@ export default {
       url: `${url}`,
       data: params || {},
       transformRequest: [
-        function(data) {
+        function (data) {
           if (isJson) return JSON.stringify(data);
           return qs.stringify(data);
         },
@@ -38,7 +38,7 @@ export default {
     return axios({
       method: "get",
       params: tempParams,
-      paramsSerializer: function(params) {
+      paramsSerializer: function (params) {
         return qs.stringify(params, { arrayFormat: "indices" });
       },
       url: `${url}`,

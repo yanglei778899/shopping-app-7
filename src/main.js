@@ -4,17 +4,18 @@ import router from './router'
 import store from './store'
 
 import axios from "./service/axios";
+import mock from "./mock/mock";
 
+Vue.config.productionTip = false
 //引入重置样式，rem
 import "@/assets/css/reset.css"
 import "@/assets/js/rem.js"
-Vue.config.productionTip = false
 
 
 /**
  * 挂载axios
  */
- Vue.prototype.$axios = axios;
+Vue.prototype.$axios = axios;
 
 
 new Vue({

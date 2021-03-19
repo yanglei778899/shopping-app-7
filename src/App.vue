@@ -1,17 +1,11 @@
 <template>
   <div id="app">
-    <tabbar></tabbar>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import tabbar from "./components/common/tabbar/tabbar"
-export default {
- components:{
-   tabbar
- }
-}
+export default {};
 </script>
 <style lang="less">
 </style>
