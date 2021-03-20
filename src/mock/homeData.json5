@@ -1,0 +1,8 @@
+
+ {
+    code: "SUCCESS",
+    data: {
+      "banners|5": [{ BannerImgUrl: "imgUrl" }],
+      recommends: [],
+    }
+  }

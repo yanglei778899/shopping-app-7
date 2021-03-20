@@ -14,6 +14,11 @@ export default {};
 .navbar {
   display: flex;
   font-size: 0.7rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  right: 0px;
   .left,
   .right {
     text-align: center;

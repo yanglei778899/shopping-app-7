@@ -1,5 +1,5 @@
 <template>
-  <div>我的<tabbar></tabbar></div>
+  <div><van-button type="primary">主要按钮</van-button><tabbar></tabbar></div>
 </template>
 
 <script>

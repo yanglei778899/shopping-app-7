@@ -11,7 +11,10 @@ Vue.config.productionTip = false
 import "@/assets/css/reset.css"
 import "@/assets/js/rem.js"
 
+import Vant from 'vant';
+import 'vant/lib/index.css';
 
+Vue.use(Vant);
 /**
  * 挂载axios
  */

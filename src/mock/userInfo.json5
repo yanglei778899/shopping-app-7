@@ -1,7 +1,0 @@
-{
-  code: "SUCCESS",
-    data: {
-    "banners|5": [{ BannerImgUrl: "Random.image('200x100', '#50B347', '#FFF', 'Mock.js')" }],
-      recommends: []
-  }
-}
