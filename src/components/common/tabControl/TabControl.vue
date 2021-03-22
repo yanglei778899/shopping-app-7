@@ -27,6 +27,8 @@ export default {
   methods: {
     currentIndexFN(i) {
       this.currentIndex = i;
+
+      this.$emit("currentIndex", i);
     },
   },
 };
